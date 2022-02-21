@@ -4,7 +4,8 @@ class program
     static void Main(string[] args)
     {
         Console.WriteLine("Welcome to TicTacToe Game");
-        Game game = new Game();
-        game.gameBoard();
+        TicTacToeGame game = new TicTacToeGame();
+        game.GameBoard();
+        game.PlayerInput();
     }
 }
